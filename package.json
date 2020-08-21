@@ -2,7 +2,7 @@
   "name": "justin",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/justinlambeth1996/News-scraper-HW#readme",
   "dependencies": {
-    "all": "0.0.0",
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
     "exphbs": "^1.2.0",
