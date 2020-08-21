@@ -33,7 +33,7 @@ app.engine('hbs', exphbs({
 app.set('view engine', 'hbs');
 
 
-axios.defaults.baseURL = process.env.baseURL || "http://localhost:3000";
+axios.defaults.baseURL = process.env.baseURL || "http://localhost:newsScraper";
 
 
 require('./routes/apiRoutes')(app);
